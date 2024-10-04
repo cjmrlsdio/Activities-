@@ -1,0 +1,41 @@
+.box {
+    border: 1px solid #fff;
+padding: 20px;
+border-radius: 5px;
+max-width: 300px;
+margin: 20px;
+box-shadow: 0 2px 5px;
+}
+
+  .box__title {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+  .box__description {
+font-size: 1em;
+margin-bottom: 15px;
+color: #555;
+}
+
+.box__button {
+padding: 10px 15px;
+background-color: #dbde16;
+color: black;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.box--highlighted {
+border-color: #f39c12;
+background-color: white;
+}
+
+.box--highlighted .box__title {
+color: #72757A;
+}
+
+.box--highlighted .box__button {
+background-color: #f7ff00;
+}
